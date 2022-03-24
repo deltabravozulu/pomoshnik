@@ -40,7 +40,7 @@ function newgame() {
     $('body').empty().append(html_content);
 
     $('.mast').css({ 'clear': 'both' });
-    $('.mast div').css({ 'width': '60px', 'height': '90px', 'margin': '3px', 'float': 'left', 'background-image': 'url(./img/cards.png)' });
+    $('.mast div').css({ 'width': '60px', 'height': '90px', 'margin': '3px', 'float': 'left', 'background-image': 'url(./img/cards.png)', 'background-size': '780px 450px' });
 
     for (var i = 0; i < 4; i++) {
         var vert = i * 90 + 'px';
