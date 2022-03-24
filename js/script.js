@@ -35,7 +35,7 @@ function newgame() {
         }
         html_content += '</div>';
     }
-    html_content += '</div></div><div class="btnblock" style="text-align: center;clear: both;min-width: 470px;"><span id="sopernik" class="myButton" style="clear: both;">RIVAL/span><span id="moijarty" class="myButton" style="clear: both;">TAKEN</span><span id="otboy" class="myButton">CLEAR</span></div><div style="text-align: center;"><span id="newgame" class="myButton">NEW GAME</span></div>';
+    html_content += '</div></div><div class="btnblock" style="text-align: center;clear: both;min-width: 470px;"><span id="sopernik" class="myButton" style="clear: both;">RIVAL</span><span id="moijarty" class="myButton" style="clear: both;">TAKEN</span><span id="otboy" class="myButton">CLEAR</span></div><div style="text-align: center;"><span id="newgame" class="myButton">NEW GAME</span></div>';
 
     $('body').empty().append(html_content);
 
